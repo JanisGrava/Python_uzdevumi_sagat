@@ -8,8 +8,10 @@ class DATI:
 
     def __init__(self, nosaukums, pilseta):
         self.nosaukums = nosaukums
-        self.pilseta = pilseta
+        self.pilseta = madona
         
         
         
-pirmais_ieraksts =DATI("klase203", "USA")
+pirmais_ieraksts =DATI("klase203", "USA")#definējuši objektu ar...,
+pilseta=pirmais_ieraksts.pilseta\
+print(madona)
